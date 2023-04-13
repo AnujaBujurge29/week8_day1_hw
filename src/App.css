@@ -73,7 +73,8 @@
   background: black;
 }
 .far {
-  font-size:22px
+  font-size:22px;
+  color:black;
 }
 
 .sentiments{

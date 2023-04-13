@@ -15,12 +15,12 @@ export default function Sentiment() {
   };
   return (
     <div>
-      <i className="far fa-smile"></i> Positive:&nbsp;&nbsp;&nbsp;&nbsp;
+      <i className="far fa-grin-beam"></i> Positive:&nbsp;&nbsp;&nbsp;&nbsp;
       <button className="sentiments" onClick={addOneHappy}>{happy}</button>
       <br />
-      <i className="far fa-meh"></i> Neutral:&nbsp;&nbsp;&nbsp;&nbsp;
+      <i className="far fa-meh-blank"></i> Neutral:&nbsp;&nbsp;&nbsp;&nbsp;
       <button  className="sentiments" onClick={addOneNeutral}>{neutral}</button><br />
-      <i className="far fa-frown"></i> Negative: &nbsp;
+      <i className="far fa-angry"></i> Negative: &nbsp;
       <button  className="sentiments" onClick={addOneSad}>{sad}</button><br />
     </div>
   );

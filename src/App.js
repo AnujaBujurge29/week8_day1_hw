@@ -1,7 +1,9 @@
 import Subscription from "./Components/Subscription";
 import Sentiment from "./Components/Sentiment";
-
+import Sidebar from "./Components/Sidebar";
 import "./App.css";
+import Reviews from "./Components/Reviews";
+
 
 function App() {
   // const [counter, setCounter] = useState(0);
@@ -12,12 +14,13 @@ function App() {
     <div className="App">
       <div className="block b1">
         <div className="aside-bar">
-          <p>DashBoard</p>
+          <Sidebar></Sidebar>
+          {/* <p>DashBoard</p>
           <p>Widget</p>
           <p>Reviews</p>
           <p>Customers</p>
           <p>Online Analysis</p>
-          <p>Settings</p>
+          <p>Setting</p> */}
         </div>
       </div>
 
@@ -25,7 +28,7 @@ function App() {
         Reviews
         <br />
         <br />
-        1,281
+        <Reviews></Reviews>
       </div>
       <div className="block b3">
         Average Rating

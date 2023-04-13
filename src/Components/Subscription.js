@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export default function Subscription(){
-  const [subscribers, setSubscribers] = useState(1256);
+  const [subscribers, setSubscribers] = useState(821);
   const addOne = () => {
     setSubscribers(subscribers + 1);
   };
